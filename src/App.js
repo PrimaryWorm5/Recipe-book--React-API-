@@ -41,6 +41,7 @@ const getRecipes = async()=>{
           Search
         </button>
       </form>
+      <div className="recipes">
       {recipes.map(recipe =>(
         <Recipe
         key={recipe.recipe.label} 
@@ -52,6 +53,7 @@ const getRecipes = async()=>{
         />
       ))};
     </div>
+  </div>
   )
 }
 
