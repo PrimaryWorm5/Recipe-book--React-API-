@@ -1,4 +1,4 @@
-# The very first API project made width React so you will need npm to boot
+# The very first API project made with React so you will need npm to boot
 
 ## Available Scripts
 
